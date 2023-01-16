@@ -1,0 +1,212 @@
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.nav-container .heading{
+    font-size: 45px;
+    font-weight: 700;
+}
+.items{
+    display: flex;
+    list-style: none;
+   
+   
+}
+.item{
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #424242
+}
+/* ------Architects-details styles------- */
+.Architects-details{
+ /* border: 2px solid red; */
+    text-align: center;
+}
+.Architects-header{
+    font-weight: 800;
+    font-size: 65px;
+}
+.Architect-description{
+     color: #727272;
+     margin-top: 40px;
+}
+     .primary-button{
+         margin-top: 25px;
+    height: 64px;
+    width: 180px;
+    font-weight: 600;
+    background: #FF900E;
+    color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
+
+}
+
+.banner{
+    margin-top: 77px;
+   
+    
+}
+
+/* Photos styles */
+
+.Album{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.Album-details{
+    margin-top: 200px;
+}
+ .Album-title, .fact-title{
+     font-weight: 500 bold;
+     font-size: 45px;
+
+ }
+ #Quick-list{
+     color:#727272;
+ }
+#of-our{
+    color: #131313;
+}
+#Features{
+    color: #FF900E;
+
+}
+.Album-description,
+.Features-description, 
+.fact-description,
+ .achiev,
+ .footer{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.cover-photo {
+    width: 800px;
+    height: 800px;
+    margin-top: 50px;
+  }
+  
+  .cover-photo > img {
+    float: left;
+   
+    margin: 1%;
+    height: 342px;
+    width: 342px;
+
+
+   border-radius: 8px;
+
+  }
+
+
+/* ------Features Styles----- */
+
+.servises{
+    display: flex;
+    justify-content: center;  
+    gap: 20px;
+    
+
+}
+.Features{
+    box-shadow: 0px 4px 30px 0px #0000000F;
+    background: #FFFFFF;
+    border-radius: 8px;
+      padding-top: 80px;
+      width: 586px;
+      height: 171px;
+    /* padding-bottom: 30px; */
+    margin-left: 55px;
+}
+.Feature-container{
+    /* padding-top: 40px;
+    padding-bottom: 30px; */
+    margin-top: 80px;
+}
+.Features-title{
+   
+    font-weight: 700 bold;
+    font-size: 45px;
+    color: #131313;
+
+}
+.Features-description{
+   
+}
+.Features-img{
+    
+    /* width: 100px; */
+    /* height: 20px; */
+    /* height: 100vh; */
+    border-radius: 8px;
+}
+.Features-btn{
+    margin-top: 1100px;
+    width: 299px;
+    height: 109px;  
+
+}
+/* ----------Facts---------- */
+.facts{
+    margin-left: 200px;
+}
+/* ----------Achievments Styles----------- */
+.achievments{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+     gap: 50px;
+}
+.achievment{
+    text-align: center ;
+     /* padding: 50px 90px; */
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+   /* transform: rotate(90deg); */
+    width: 240px;
+    height: 240px;
+    /* border: 2px solid #131313; */
+    
+}
+
+  
+
+
+.Digit{
+    margin-bottom: 1px;
+    font-weight: 600;
+    font-size: 45px;
+    /* text-align: center; */
+    color: #424242;
+}
+/* ------------ */
+
+#Company{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.logos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+ 
+/* Footer styles */
+.footer{
+    margin-top: 70px;
+    width: 1440px;
+    height: 50px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+
+}
